@@ -1,19 +1,19 @@
-# 🎯 DVD Rental Duration Prediction Project
+#  DVD Rental Duration Prediction Project
 
-## 📌 Objective
+##  Objective
 
 Q-A DVD rental company wants to predict the number of days a customer will rent a DVD based on various features.  
 This helps in optimizing inventory planning and improving operational efficiency.
 
 ---
 
-## 🎯 Goal
+##  Goal
 
 Develop a regression model that accurately predicts DVD rental durations and achieves a **Mean Squared Error (MSE) of 3 or less** on the test set.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 The dataset provided is `rental_info.csv` with the following columns:
 
@@ -32,7 +32,7 @@ The dataset provided is `rental_info.csv` with the following columns:
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 1. Feature engineering (e.g., computing rental duration, extracting special features).
 2. Feature selection using **Lasso regression**.
@@ -41,14 +41,14 @@ The dataset provided is `rental_info.csv` with the following columns:
 
 ---
 
-## ✅ Outcome
+## Outcome
 
 - **Random Forest Regressor** with optimized hyperparameters achieved the best performance.
 - Final **Mean Squared Error (MSE)** was printed to assess prediction accuracy and met the target of ≤ 3.
 
 ---
 
-## 📂 Files
+## Files
 
 - `dvd_rental_prediction.py`: Main Python script for data preprocessing, modeling, and evaluation.
 - `rental_info.csv`: Input dataset (if included).
